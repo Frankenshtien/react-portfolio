@@ -6,7 +6,12 @@ function Resume() {
     <div>
       <Jumbotron>
         <h1>Resume.</h1>
-        <h3>Check out my resume:</h3>
+        <h3>
+          <a href="../../src/assets/downloads/Resume.pdf" download>
+            Download
+          </a>{" "}
+          my resume to check it out!
+        </h3>
       </Jumbotron>
     </div>
   );

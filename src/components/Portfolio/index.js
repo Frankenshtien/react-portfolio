@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Button, Container, Col, Row } from "react-bootstrap";
+import { Card, Button, Container, Row } from "react-bootstrap";
 
 function Portfolio() {
   const projects = [
@@ -26,7 +26,7 @@ function Portfolio() {
           {projects.map((project) => (
             <Card
               key={project.title}
-              style={{ width: "35rem", padding: "10px", margin: "25px" }}
+              style={{ width: "35rem", margin: "25px" }}
             >
               <Card.Img
                 variant="top"

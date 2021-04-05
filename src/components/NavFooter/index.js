@@ -1,8 +1,7 @@
 import React from "react";
-import { Nav, Navbar, NavItem, NavLink } from "react-bootstrap";
+import { Nav, Navbar, NavLink } from "react-bootstrap";
 
-function NavFooter(props) {
-  const tabs = ["About Me", "Portfolio", "Contact", "Resume"];
+function NavFooter() {
   return (
     <Navbar
       fixed="bottom"
