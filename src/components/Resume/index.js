@@ -7,7 +7,11 @@ function Resume() {
       <Jumbotron>
         <h1>Resume.</h1>
         <h3>
-          <a href="Resume.pdf" download>
+          <a
+            href="https://docs.google.com/document/d/1XtV8QdVEKMykQSKjJ5c2M2b_kCR1dmsdWcKXQjA4jZI/edit?usp=sharing"
+            download
+            target="_blank"
+          >
             Download
           </a>{" "}
           my resume to check it out!
