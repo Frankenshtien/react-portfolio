@@ -7,7 +7,7 @@ function Resume() {
       <Jumbotron>
         <h1>Resume.</h1>
         <h3>
-          <a href="../../src/assets/downloads/Resume.pdf" download>
+          <a href="Resume.pdf" download>
             Download
           </a>{" "}
           my resume to check it out!
