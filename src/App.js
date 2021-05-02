@@ -7,32 +7,22 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
-  const [currentPage, handlePageChange] = useState("AboutMe");
-
-  const renderPage = () => {
-    switch (currentPage) {
-      case "AboutMe":
-        return <AboutMe />;
-      case "Portfolio":
-        return <Portfolio />;
-      case "Contact":
-        return <Contact />;
-      case "Resume":
-        return <Resume />;
-    }
-  };
-
   return (
-    <main>
-      <NavHeader
-        currentPage={currentPage}
-        handlePageChange={handlePageChange}
-      />
-      {renderPage(currentPage)}
-      <NavFooter></NavFooter>
-    </main>
+    <Router>
+      <main>
+        <NavHeader />
+        <Switch>
+          <Route exact path="/" component={AboutMe} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/resume" component={Resume} />
+        </Switch>
+        <NavFooter></NavFooter>
+      </main>
+    </Router>
   );
 }
 

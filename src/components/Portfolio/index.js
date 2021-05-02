@@ -34,7 +34,7 @@ function Portfolio() {
     {
       title: "Food Festival",
       description:
-        "This was my first introduction to PWAs. It was a project that gave us an existing webpage, had us optimize it, create offline functionality, the finally make it an installable PWA.",
+        "This was my first introduction to PWAs. It was a project that gave us an existing webpage, had us optimize it, create offline functionality, then finally make it an installable PWA.",
       link: "https://frankenshtien.github.io/food-festival/",
       photo: "food-festival.jpg",
     },
@@ -42,8 +42,15 @@ function Portfolio() {
       title: "React Portfolio",
       description:
         "It may be odd to feature your portfolio on your portfolio, but I feel inclined to. This is my second project using React, and it is by far the project that I'm most proud of. To me, it really feels like a modern web app, especially when viewed on mobile.",
-      link: "",
+      link: "/",
       photo: "portfolio.jpg",
+    },
+    {
+      title: "OnlyMemes",
+      description:
+        "This is my final group project from my boot camp, and the culmination of essentially everything I learned throughout it. The idea as essentially an exclusive meme viewing and sharing app with a paywall to access it. While the concept is a bit goofy, it was so much fun to make, and I learned a ton along the way.",
+      link: "https://onlymemes.herokuapp.com/",
+      photo: "onlymemes.jpg",
     },
   ];
 

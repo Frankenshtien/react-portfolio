@@ -7,7 +7,7 @@ function AboutMe() {
       <h1>About Me.</h1>
       <p>
         My name is Kyle Condie, and I am a full stack web developer. I'm fairly
-        new to the industry, but I have alway had a personal passion for
+        new to the industry, but I have always had a personal passion for
         technology. I became a barber fresh out of highschool, and spent six
         successful years in that industry. However, I realized that not only was
         I capped out financially, but I was losing passion for it, and knew it
