@@ -17,9 +17,6 @@ function NavFooter() {
         <NavLink href="https://www.linkedin.com/in/kyle-condie-6ba8111a1/">
           <i className="fab fa-linkedin-in"></i>
         </NavLink>
-        <NavLink href="https://twitter.com/kylezcondie">
-          <i className="fab fa-twitter"></i>
-        </NavLink>
       </Nav>
     </Navbar>
   );

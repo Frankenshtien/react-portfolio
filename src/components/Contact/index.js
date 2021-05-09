@@ -19,15 +19,29 @@ function Contact() {
 
   return (
     <Jumbotron>
-      <h1>Contact</h1>
-      <h3>
-        <address>
-          Feel free to reach out to me at{" "}
-          <a href="mailto:barber.von.frankenshtien@gmail.com" target="_blank">
-            barber.von.frankenshtien@gmail.com
-          </a>
-        </address>
-      </h3>
+      <Container fluid>
+        <Row>
+          <h1>Contact</h1>
+        </Row>
+        <Row>
+          <h4>
+            <address>
+              Feel free to email me{" "}
+              <a
+                href="mailto:barber.von.frankenshtien@gmail.com"
+                target="_blank"
+              >
+                here
+              </a>
+              <br></br>
+              Or text me{" "}
+              <a href="tel:8015999767" target="_blank">
+                here
+              </a>
+            </address>
+          </h4>
+        </Row>
+      </Container>
     </Jumbotron>
     // <div>
     //   <Container fluid>
