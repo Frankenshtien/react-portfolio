@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 //import PortfolioPage from "./components/PortfolioPage";
 import NavHeader from "./components/NavHeader";
-import NavFooter from "./components/NavFooter";
 import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
@@ -20,7 +19,6 @@ function App() {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/resume" component={Resume} />
         </Switch>
-        <NavFooter></NavFooter>
       </main>
     </Router>
   );

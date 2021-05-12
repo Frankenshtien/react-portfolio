@@ -24,7 +24,7 @@ function Contact() {
           <h1>Contact</h1>
         </Row>
         <Row>
-          <h4>
+          <h3>
             <address>
               Feel free to email me{" "}
               <a
@@ -39,7 +39,7 @@ function Contact() {
                 here
               </a>
             </address>
-          </h4>
+          </h3>
         </Row>
       </Container>
     </Jumbotron>

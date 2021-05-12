@@ -5,7 +5,7 @@ function Resume() {
   return (
     <div>
       <Jumbotron>
-        <h1>Resume.</h1>
+        <h1>Resume</h1>
         <h3>
           <a
             href="https://docs.google.com/document/d/1XtV8QdVEKMykQSKjJ5c2M2b_kCR1dmsdWcKXQjA4jZI/edit?usp=sharing"
